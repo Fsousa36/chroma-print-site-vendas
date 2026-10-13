@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Catálogo Completo de Impressos | Chroma Print Gráfica Goiânia</title>
+
+  <meta name="description" content="Confira o catálogo completo de produtos gráficos da Chroma Print: cartões de visita, panfletos, banners, lonas, adesivos e fachadas com estrutura de metalon.">
+  <meta name="theme-color" content="#1769d2">
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/interactive.css">
+</head>
+
+<body>
+
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-message">
+        <span class="spark" aria-hidden="true">✦</span>
+        <span>Catálogo Oficial de Impressão Gráfica &amp; Comunicação Visual.</span>
+      </div>
+      <div class="topbar-right">
+        <a href="index.html">← Voltar ao Início</a>
+        <a href="https://wa.me/556293923931" target="_blank" rel="noopener noreferrer">WhatsApp: (62) 9392-3931</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/logo-chroma-print.svg" alt="Chroma Print" width="200" height="94">
+      </a>
+
+      <nav class="nav" id="mainNav" aria-label="Navegação secundária">
+        <a href="index.html">Início</a>
+        <a class="active" href="catalogo.html">Catálogo Completo</a>
+        <a href="fachadas.html">Fachadas em Metalon</a>
+        <a href="gabaritos.html">Gabaritos</a>
+        <a href="index.html#contato">Contato</a>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="cart-button" id="openCart" aria-label="Abrir carrinho">
+          <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M3 3h2l2.4 12.2a2 2 0 0 0 2 1.6h8.8a2 2 0 0 0 2-1.6L22 7H6"/>
+            <circle cx="10" cy="21" r="1"/>
+            <circle cx="19" cy="21" r="1"/>
+          </svg>
+          <span class="cart-count" id="cartCount">0</span>
+        </button>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+          ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section section-soft" style="padding: 48px 0 80px;">
+      <div class="container">
+
+        <div class="section-heading text-center" style="margin-bottom: 36px;">
+          <span class="eyebrow">Catálogo Completo</span>
+          <h2>Todos os Nossos Produtos &amp; <span class="gradient-text">Soluções Gráficas</span></h2>
+          <p>
+            Explore cada detalhe técnico, opções de tiragem e solicite seu pedido diretamente pelo site.
+          </p>
+        </div>
+
+        <!-- Busca e Filtros -->
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 18px; margin-bottom: 32px;">
+          <div class="products-search-bar" style="width: min(540px, 100%); margin-bottom: 0;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="11" cy="11" r="8"/>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+            </svg>
+            <input type="text" id="productSearch" placeholder="Pesquisar por produto, gramatura, acabamento..." aria-label="Buscar produtos no catálogo">
+          </div>
+
+          <div class="product-filters filter-tabs" aria-label="Filtros de categoria">
+            <button class="filter-btn filter-tab active" data-filter="todos">Todos</button>
+            <button class="filter-btn filter-tab" data-filter="cartoes">Cartões de Visita</button>
+            <button class="filter-btn filter-tab" data-filter="panfletos">Panfletos</button>
+            <button class="filter-btn filter-tab" data-filter="banners">Banners &amp; Lonas</button>
+            <button class="filter-btn filter-tab" data-filter="adesivos">Adesivos</button>
+            <button class="filter-btn filter-tab" data-filter="fachadas">Fachadas</button>
+            <button class="filter-btn filter-tab" data-filter="corporativo">Corporativo</button>
+          </div>
+        </div>
+
+        <!-- Grade de Produtos -->
+        <div class="products-grid" id="productsGrid">
+          <!-- Injetado por js/catalog.js -->
+        </div>
+
+        <!-- Tabela de Comparativo Técnico de Papéis & Acabamentos -->
+        <div style="margin-top: 64px; background: #ffffff; border: 1px solid var(--border-subtle); border-radius: var(--radius-xl); padding: 32px; box-shadow: var(--shadow-sm);">
+          <h3 style="font-size: 1.35rem; margin-bottom: 12px; color: var(--slate-ink);">Guia Técnico de Gramaturas &amp; Acabamentos</h3>
+          <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 24px;">
+            Entenda a diferença entre papéis e películas para fazer a melhor escolha para a sua marca:
+          </p>
+
+          <div style="overflow-x: auto;">
+            <table style="width: 100%; border-collapse: collapse; font-size: 0.825rem; text-align: left;">
+              <thead>
+                <tr style="border-bottom: 2px solid var(--border-default); background: var(--bg-surface);">
+                  <th style="padding: 12px 14px; color: var(--slate-ink);">Material</th>
+                  <th style="padding: 12px 14px; color: var(--slate-ink);">Gramatura / Espessura</th>
+                  <th style="padding: 12px 14px; color: var(--slate-ink);">Acabamento Disponível</th>
+                  <th style="padding: 12px 14px; color: var(--slate-ink);">Indicação Ideal</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr style="border-bottom: 1px solid var(--border-subtle);">
+                  <td style="padding: 14px; font-weight: 700;">Papel Couché Brilho</td>
+                  <td style="padding: 14px;">90g / 115g / 150g</td>
+                  <td style="padding: 14px;">Verniz Brilho / Refile</td>
+                  <td style="padding: 14px;">Panfletos, folhetos, cardápios e encartes promocionais</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border-subtle);">
+                  <td style="padding: 14px; font-weight: 700;">Papel Couché Fosco</td>
+                  <td style="padding: 14px;">300g (Super Encorpado)</td>
+                  <td style="padding: 14px;">BOPP Fosco + Verniz Localizado</td>
+                  <td style="padding: 14px;">Cartões de visita executivos, tags de roupas e convites</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border-subtle);">
+                  <td style="padding: 14px; font-weight: 700;">Lona Vinílica Frontlight</td>
+                  <td style="padding: 14px;">440g / 510g</td>
+                  <td style="padding: 14px;">Bastão + Cordão ou Ilhós</td>
+                  <td style="padding: 14px;">Banners comerciais, feiras, eventos e fachadas externas</td>
+                </tr>
+                <tr>
+                  <td style="padding: 14px; font-weight: 700;">Vinil Autoadesivo</td>
+                  <td style="padding: 14px;">0.08mm / 0.10mm</td>
+                  <td style="padding: 14px;">Recorte Eletrônico / À prova d'água</td>
+                  <td style="padding: 14px;">Rótulos de produtos, adesivos para delivery e personalização de frotas</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>© 2026 Chroma Print Gráfica e Comunicação Visual. Todos os direitos reservados.</p>
+        <div class="footer-bottom-links">
+          <a href="index.html">Página Inicial</a>
+          <a href="fachadas.html">Fachadas em Metalon</a>
+          <a href="politica-de-privacidade.html">Política de Privacidade</a>
+          <a href="termos-de-uso.html">Termos de Uso</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Drawer do Carrinho -->
+  <div class="cart-overlay" id="cartOverlay" aria-hidden="true">
+    <aside class="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cartTitle">
+      <div class="cart-header">
+        <h2 id="cartTitle">Seu Carrinho</h2>
+        <button class="cart-close" id="closeCart" aria-label="Fechar">×</button>
+      </div>
+      <div class="cart-items" id="cartItems"></div>
+      <div class="cart-footer">
+        <div class="cart-total-line">
+          <span>Total Geral</span>
+          <strong id="cartTotal">R$ 0,00</strong>
+        </div>
+        <button class="btn btn-whatsapp btn-full btn-lg" id="checkoutButton">
+          Solicitar Pedido no WhatsApp →
+        </button>
+      </div>
+    </aside>
+  </div>
+
+  <!-- Modal de Produto -->
+  <div class="modal-overlay" id="productModal" aria-hidden="true">
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalProdTitle">
+      <div class="modal-header">
+        <h3 id="modalProdTitle">Personalizar Produto</h3>
+        <button class="modal-close" id="closeProductModal" aria-label="Fechar">×</button>
+      </div>
+      <div class="modal-body">
+        <div class="config-modal-grid">
+          <div class="config-img-box">
+            <img id="modalProdImg" src="" alt="Produto">
+          </div>
+          <div>
+            <p id="modalProdDesc" style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 16px;"></p>
+            <div class="form-group">
+              <label class="form-label">Tiragem:</label>
+              <div class="tiragem-pills" id="modalTiragens"></div>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="modalFinishes">Acabamento:</label>
+              <select class="form-select" id="modalFinishes"></select>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="modalProdNotes">Observações:</label>
+              <input type="text" class="form-input" id="modalProdNotes" placeholder="Ex: envio arte no WhatsApp">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <div style="margin-right: auto;">
+          <strong id="modalProdPriceTotal" style="font-size: 1.35rem; color: var(--primary);">R$ 0,00</strong>
+        </div>
+        <button class="btn btn-primary" id="modalConfirmAdd">Adicionar ao Carrinho</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/catalog.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

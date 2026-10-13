@@ -1,0 +1,130 @@
+/* ==========================================================================
+   CHROMA PRINT - DESIGN TOKENS & VARIÁVEIS DO SISTEMA
+   Baseado no padrão HiperDesign=Fsousa & FSDesign-Supremo (Anti-IA Shield)
+   ========================================================================== */
+
+:root {
+  /* ------------------------------------------------------------------------
+     1. PALETA CROMÁTICA OFICIAL (IDENTIDADE VISUAL ASSETS CHROMA PRINT)
+  ------------------------------------------------------------------------ */
+  --primary: #1769d2;
+  --primary-dark: #0f4ea2;
+  --primary-light: #eaf3ff;
+  --primary-soft: #f0f6ff;
+
+  /* Cores Extraídas dos Vetores Oficiais em assets/ */
+  --cyan: #00afef;
+  --cyan-dark: #1b79b9;
+  --cyan-deep: #364383;
+  --cyan-light: #e6f7fd;
+  
+  --magenta: #ed3192;
+  --pink: #ed3192;
+  --pink-dark: #b23346;
+  --pink-light: #fdedf5;
+  
+  --yellow: #fccc22;
+  --yellow-bright: #fff212;
+  --yellow-light: #fffce6;
+  
+  --orange: #f89c32;
+  --orange-light: #fff4e5;
+
+  --red-warm: #ed3237;
+  
+  --mint: #159c68;
+  --mint-light: #e7f9f0;
+
+  /* Superfícies, Texturas Táteis & Fundo Acolhedor */
+  --bg-app: #ffffff;
+  --bg-surface: #f8fafc;
+  --bg-surface-alt: #f1f5f9;
+  --bg-surface-elevated: #ffffff;
+  --creme-warm: #faf7f2;
+
+  /* Escala de Cinza & Tipografia da Marca (#272424 Oficial) */
+  --dark: #17191e;
+  --slate-ink: #272424;
+  --text-main: #333d4e;
+  --text-secondary: #5a6578;
+  --text-muted: #828e9f;
+  --text-on-dark: #f8fafc;
+
+  /* Bordas Sutis & Divisores */
+  --border-subtle: #e9edf3;
+  --border-default: #dce3ed;
+  --border-strong: #cbd5e1;
+  --border-primary: rgba(23, 105, 210, 0.22);
+
+  /* WhatsApp Oficial */
+  --whatsapp: #19b765;
+  --whatsapp-dark: #128c4b;
+  --whatsapp-light: #e6f8ef;
+
+  /* ------------------------------------------------------------------------
+     2. ESCALA TIPOGRÁFICA CANÔNICA (Manrope + DM Sans + Outfit)
+  ------------------------------------------------------------------------ */
+  --font-display: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-heading: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-body: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* ------------------------------------------------------------------------
+     3. ESPAÇAMENTOS MATEMÁTICOS (Grade 8pt)
+  ------------------------------------------------------------------------ */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+
+  /* ------------------------------------------------------------------------
+     4. RAIOS DE CURVATURA HIERÁRQUICOS
+  ------------------------------------------------------------------------ */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-2xl: 32px;
+  --radius-full: 9999px;
+
+  /* ------------------------------------------------------------------------
+     5. ELEVAÇÃO, PROFUNDIDADE TÁTIL & CLAYMORPHISM (FSDesign + HiperDesign)
+  ------------------------------------------------------------------------ */
+  --shadow-xs: 0 1px 2px rgba(15, 23, 42, 0.05);
+  --shadow-sm: 0 2px 6px rgba(15, 23, 42, 0.06), 0 1px 2px rgba(15, 23, 42, 0.04);
+  --shadow-md: 0 8px 20px rgba(15, 23, 42, 0.07), 0 2px 6px rgba(15, 23, 42, 0.03);
+  --shadow-lg: 0 18px 45px rgba(15, 23, 42, 0.09), 0 4px 12px rgba(15, 23, 42, 0.04);
+  --shadow-xl: 0 28px 70px rgba(15, 23, 42, 0.12), 0 8px 24px rgba(15, 23, 42, 0.05);
+  
+  /* Relevo Tátil Claymorphic Nobre */
+  --clay-card: 
+    10px 14px 34px rgba(23, 43, 77, 0.07),
+    -8px -8px 24px rgba(255, 255, 255, 0.95),
+    inset 0 1px 2px rgba(255, 255, 255, 0.85);
+
+  --clay-soft: 
+    6px 8px 20px rgba(23, 43, 77, 0.05),
+    -5px -5px 16px rgba(255, 255, 255, 0.9);
+
+  --clay-inset: 
+    inset 3px 3px 8px rgba(23, 43, 77, 0.06),
+    inset -3px -3px 8px rgba(255, 255, 255, 0.8);
+
+  /* Transições Fluidas */
+  --transition-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-spring: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  /* Dimensão Mínima de Toque (Ergonomia Mobile-First Anti-IA Shield) */
+  --touch-target: 44px;
+  --container-max: 1240px;
+}

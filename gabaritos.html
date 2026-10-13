@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Guia de Gabaritos &amp; Fechamento de Arquivos | Chroma Print</title>
+
+  <meta name="description" content="Guia técnico para fechamento de arquivos gráficos da Chroma Print. Aprenda sobre sangria, modo de cor CMYK, 300 DPI, fontes em curvas e evite erros na impressão.">
+  <meta name="theme-color" content="#1769d2">
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/interactive.css">
+</head>
+
+<body>
+
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-message">
+        <span class="spark" aria-hidden="true">✦</span>
+        <span>Guia Técnico Oficial de Pré-impressão &amp; Fechamento de Arquivos.</span>
+      </div>
+      <div class="topbar-right">
+        <a href="index.html">← Voltar ao Início</a>
+        <a href="https://wa.me/556293923931" target="_blank" rel="noopener noreferrer">Suporte Técnico WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/logo-chroma-print.svg" alt="Chroma Print" width="200" height="94">
+      </a>
+
+      <nav class="nav" id="mainNav">
+        <a href="index.html">Início</a>
+        <a href="catalogo.html">Catálogo</a>
+        <a href="fachadas.html">Fachadas</a>
+        <a class="active" href="gabaritos.html">Gabaritos &amp; Fechamento</a>
+        <a href="index.html#contato">Contato</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="cart-button" id="openCart" aria-label="Abrir carrinho">
+          <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M3 3h2l2.4 12.2a2 2 0 0 0 2 1.6h8.8a2 2 0 0 0 2-1.6L22 7H6"/>
+            <circle cx="10" cy="21" r="1"/>
+            <circle cx="19" cy="21" r="1"/>
+          </svg>
+          <span class="cart-count" id="cartCount">0</span>
+        </button>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+          ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" style="padding: 56px 0 88px;">
+      <div class="container">
+
+        <div class="section-heading text-center">
+          <span class="eyebrow">Padrão Gráfico Profissional</span>
+          <h1>Guia de Gabaritos &amp; <span class="gradient-text">Fechamento de Arquivo</span></h1>
+          <p>
+            Siga estas 5 regras essenciais para garantir que sua arte saia na impressão exatamente como você planejou.
+          </p>
+        </div>
+
+        <!-- 5 Regras de Ouro da Pré-impressão -->
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-bottom: 56px;">
+
+          <div class="clay-card" style="padding: 24px;">
+            <div class="benefit-icon" style="margin-bottom: 16px;">📐</div>
+            <h3 style="font-size: 1.1rem; margin-bottom: 8px;">1. Sangria &amp; Margem de Segurança</h3>
+            <p style="font-size: 0.825rem; color: var(--text-secondary); line-height: 1.6;">
+              Adicione <strong>2mm de sangria</strong> em toda a volta do documento além do corte final.
+              Mantenha textos, logotipos e contatos pelo menos a <strong>3mm para dentro</strong> da linha de corte
+              para evitar que sejam atingidos pela guilhotina.
+            </p>
+          </div>
+
+          <div class="clay-card" style="padding: 24px;">
+            <div class="benefit-icon" style="margin-bottom: 16px; background: var(--cyan-light); color: var(--cyan-dark);">🎨</div>
+            <h3 style="font-size: 1.1rem; margin-bottom: 8px;">2. Perfil de Cores CMYK</h3>
+            <p style="font-size: 0.825rem; color: var(--text-secondary); line-height: 1.6;">
+              Configure seu arquivo diretamente em <strong>CMYK (Ciano, Magenta, Amarelo e Preto)</strong>.
+              Arquivos em RGB geram cores luminosas na tela que escurecem naturalmente quando convertidos em tintas
+              físicas na chapa de impressão.
+            </p>
+          </div>
+
+          <div class="clay-card" style="padding: 24px;">
+            <div class="benefit-icon" style="margin-bottom: 16px; background: var(--pink-light); color: var(--pink-dark);">🔤</div>
+            <h3 style="font-size: 1.1rem; margin-bottom: 8px;">3. Fontes em Curvas (Vetores)</h3>
+            <p style="font-size: 0.825rem; color: var(--text-secondary); line-height: 1.6;">
+              Converta todos os textos em curvas (<em>Ctrl+Q</em> no CorelDRAW ou <em>Ctrl+Shift+O</em> no Illustrator).
+              Isso impede que fontes não instaladas no servidor do RIP sejam substituídas por fontes padrão indesejadas.
+            </p>
+          </div>
+
+          <div class="clay-card" style="padding: 24px;">
+            <div class="benefit-icon" style="margin-bottom: 16px; background: var(--orange-light); color: var(--orange);">📷</div>
+            <h3 style="font-size: 1.1rem; margin-bottom: 8px;">4. Resolução das Imagens (300 DPI)</h3>
+            <p style="font-size: 0.825rem; color: var(--text-secondary); line-height: 1.6;">
+              Fotos e bitmaps devem estar em resolução real de <strong>300 DPI</strong> na escala 1:1.
+              Imagens tiradas da internet geralmente possuem 72 DPI e saem borradas ou pixelizadas no papel.
+            </p>
+          </div>
+
+          <div class="clay-card" style="padding: 24px;">
+            <div class="benefit-icon" style="margin-bottom: 16px; background: var(--mint-light); color: var(--mint);">⬛</div>
+            <h3 style="font-size: 1.1rem; margin-bottom: 8px;">5. Preto Puro vs Preto Carregado</h3>
+            <p style="font-size: 0.825rem; color: var(--text-secondary); line-height: 1.6;">
+              Para textos pequenos de leitura, use <strong>Preto Puro (C:0 M:0 Y:0 K:100)</strong> para evitar sombra de registro.
+              Para fundos pretos densos, use <strong>Preto Calçado (C:30 M:20 Y:20 K:100)</strong>. Nunca use 100% nas 4 cores.
+            </p>
+          </div>
+
+          <div class="clay-card" style="padding: 24px;">
+            <div class="benefit-icon" style="margin-bottom: 16px;">💾</div>
+            <h3 style="font-size: 1.1rem; margin-bottom: 8px;">Formato de Exportação Recomendado</h3>
+            <p style="font-size: 0.825rem; color: var(--text-secondary); line-height: 1.6;">
+              O padrão internacional mais confiável da indústria gráfica é o <strong>PDF/X-1a (2001)</strong>.
+              Ele preserva vetores, embute cores e garante a leitura perfeita pelo RIP da impressora.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Tabela de Medidas de Gabaritos Canônicos -->
+        <div style="background: #ffffff; border: 1px solid var(--border-subtle); border-radius: var(--radius-xl); padding: 32px; box-shadow: var(--shadow-sm); margin-bottom: 56px;">
+          <h3 style="font-size: 1.25rem; margin-bottom: 8px; color: var(--slate-ink);">Tabela de Dimensões Canônicas de Gabaritos</h3>
+          <p style="font-size: 0.825rem; color: var(--text-secondary); margin-bottom: 20px;">Dimensões em milímetros para configuração em seus softwares gráficos:</p>
+
+          <div style="overflow-x: auto;">
+            <table style="width: 100%; border-collapse: collapse; font-size: 0.825rem; text-align: left;">
+              <thead>
+                <tr style="background: var(--bg-surface); border-bottom: 2px solid var(--border-default);">
+                  <th style="padding: 12px 14px;">Produto</th>
+                  <th style="padding: 12px 14px;">Tamanho com Sangria (Arte Bruta)</th>
+                  <th style="padding: 12px 14px;">Tamanho Final Cortado</th>
+                  <th style="padding: 12px 14px;">Área Útil de Segurança</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr style="border-bottom: 1px solid var(--border-subtle);">
+                  <td style="padding: 12px 14px; font-weight: 700;">Cartão de Visita Padrão</td>
+                  <td style="padding: 12px 14px;">94 x 54 mm</td>
+                  <td style="padding: 12px 14px; color: var(--primary); font-weight: 700;">90 x 50 mm</td>
+                  <td style="padding: 12px 14px;">84 x 44 mm</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border-subtle);">
+                  <td style="padding: 12px 14px; font-weight: 700;">Panfleto A6</td>
+                  <td style="padding: 12px 14px;">104 x 144 mm</td>
+                  <td style="padding: 12px 14px; color: var(--primary); font-weight: 700;">100 x 140 mm</td>
+                  <td style="padding: 12px 14px;">94 x 134 mm</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border-subtle);">
+                  <td style="padding: 12px 14px; font-weight: 700;">Panfleto / Flyer A5</td>
+                  <td style="padding: 12px 14px;">154 x 214 mm</td>
+                  <td style="padding: 12px 14px; color: var(--primary); font-weight: 700;">150 x 210 mm</td>
+                  <td style="padding: 12px 14px;">144 x 204 mm</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border-subtle);">
+                  <td style="padding: 12px 14px; font-weight: 700;">Pasta Corporativa Aberta</td>
+                  <td style="padding: 12px 14px;">454 x 314 mm</td>
+                  <td style="padding: 12px 14px; color: var(--primary); font-weight: 700;">450 x 310 mm</td>
+                  <td style="padding: 12px 14px;">440 x 300 mm</td>
+                </tr>
+                <tr>
+                  <td style="padding: 12px 14px; font-weight: 700;">Banner Comercial 80x120cm</td>
+                  <td style="padding: 12px 14px;">800 x 1200 mm + 50mm bainha</td>
+                  <td style="padding: 12px 14px; color: var(--primary); font-weight: 700;">800 x 1200 mm</td>
+                  <td style="padding: 12px 14px;">760 x 1160 mm</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Validador Interativo de Arquivos -->
+        <div style="max-width: 740px; margin: 0 auto; background: var(--bg-surface); border: 1px solid var(--border-default); border-radius: var(--radius-xl); padding: 36px;">
+          <div style="text-align: center; margin-bottom: 24px;">
+            <span class="badge badge-primary">Ferramenta Rápida</span>
+            <h3 style="font-size: 1.35rem; margin-top: 8px; color: var(--slate-ink);">Testar e Validar Arquivo de Arte</h3>
+            <p style="font-size: 0.85rem; color: var(--text-secondary);">
+              Arraste seu arquivo para testar extensão e receber um diagnóstico pré-impressão:
+            </p>
+          </div>
+
+          <div class="upload-dropzone" id="artDropzone">
+            <input type="file" id="artFileInput" style="display: none;" accept=".pdf,.cdr,.ai,.psd,.png,.jpg,.jpeg,.tiff">
+            <div class="upload-icon">📤</div>
+            <div class="upload-title">Clique ou arraste seu arquivo aqui</div>
+            <div class="upload-hint">Formatos suportados: PDF/X-1a, CDR, AI, PSD, PNG e JPG</div>
+          </div>
+
+          <div id="artStatusBox" style="display: none;"></div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>© 2026 Chroma Print Gráfica e Comunicação Visual. Todos os direitos reservados.</p>
+        <div class="footer-bottom-links">
+          <a href="index.html">Início</a>
+          <a href="catalogo.html">Catálogo Completo</a>
+          <a href="fachadas.html">Fachadas em Metalon</a>
+          <a href="politica-de-privacidade.html">Política de Privacidade</a>
+          <a href="termos-de-uso.html">Termos de Uso</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Drawer do Carrinho -->
+  <div class="cart-overlay" id="cartOverlay" aria-hidden="true">
+    <aside class="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cartTitle">
+      <div class="cart-header">
+        <h2 id="cartTitle">Seu Carrinho</h2>
+        <button class="cart-close" id="closeCart" aria-label="Fechar">×</button>
+      </div>
+      <div class="cart-items" id="cartItems"></div>
+      <div class="cart-footer">
+        <div class="cart-total-line">
+          <span>Total Geral</span>
+          <strong id="cartTotal">R$ 0,00</strong>
+        </div>
+        <button class="btn btn-whatsapp btn-full btn-lg" id="checkoutButton">
+          Solicitar Pedido no WhatsApp →
+        </button>
+      </div>
+    </aside>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/uploader.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
